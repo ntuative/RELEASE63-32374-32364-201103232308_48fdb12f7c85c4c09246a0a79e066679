@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?><layout name="trophy_general" width="281" height="150" version="0.1" uid="EB852EE9-2B5B-3C27-E70D-C8D03120E814">
+  <window>
+    <frame x="0" y="0" width="281" height="150" params="32769" style="0" name="widget_trophy_frame" caption="%24%7Bwidget.furni.trophy.title%7D" color="0xff418db0" tags="room_widget_trophy">
+      <filters>
+        <DropShadowFilter distance="4" alpha="0.34901960784313724" blurX="4" blurY="4"/>
+      </filters>
+      <children>
+        <border x="0" y="0" width="269" height="118" params="16" style="0" caption="vsdvs"/>
+        <text x="20" y="12" width="229" height="60" params="16" style="0" name="greeting" caption="Lorem%20ipsum%20dolor%20sit%20amet%2C%20consectetur%20adipisicing%20elit%2C%20sed%20do%20eiusmod%20tempor%20incididunt%20ut%20labore%20et%20dolore%20magna%20aliqua.%20">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+            <var key="word_wrap" value="true" type="Boolean"/>
+            <var key="italic" value="true" type="Boolean"/>
+          </variables>
+        </text>
+        <container x="11" y="82" width="247" height="1" params="16" style="0" caption="vsdvs"/>
+        <text x="20" y="94" width="35" height="17" params="144" style="0" name="date" caption="da.te.">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="left" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+          </variables>
+        </text>
+        <text x="211" y="94" width="38" height="17" params="262288" style="0" name="name" caption="Name">
+          <variables>
+            <var key="antialias_type" value="advanced" type="String"/>
+            <var key="auto_size" value="right" type="String"/>
+            <var key="font_face" value="Ubuntu" type="String"/>
+            <var key="font_size" value="12" type="uint"/>
+            <var key="mouse_wheel_enabled" value="false" type="Boolean"/>
+          </variables>
+        </text>
+      </children>
+    </frame>
+  </window>
+</layout>
